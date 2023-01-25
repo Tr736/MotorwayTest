@@ -1,0 +1,53 @@
+{
+  "configurations" : [
+    {
+      "id" : "F44DD286-DAE2-4C3B-889A-96DA9C7BC0F5",
+      "name" : "Configuration 1",
+      "options" : {
+        "addressSanitizer" : {
+          "enabled" : false
+        }
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:MotorwayTask.xcodeproj",
+          "identifier" : "78A556E229815430000D2CAF",
+          "name" : "MotorwayTask"
+        },
+        {
+          "containerPath" : "container:MotorwayTask.xcodeproj",
+          "identifier" : "78A556F229815433000D2CAF",
+          "name" : "MotorwayTaskTests"
+        },
+        {
+          "containerPath" : "container:MotorwayTask.xcodeproj",
+          "identifier" : "78A556FC29815433000D2CAF",
+          "name" : "MotorwayTaskUITests"
+        }
+      ]
+    },
+    "testTimeoutsEnabled" : true,
+    "threadSanitizerEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:MotorwayTask.xcodeproj",
+        "identifier" : "78A556F229815433000D2CAF",
+        "name" : "MotorwayTaskTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:MotorwayTask.xcodeproj",
+        "identifier" : "78A556FC29815433000D2CAF",
+        "name" : "MotorwayTaskUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
