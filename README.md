@@ -22,6 +22,8 @@ However the downside to this is Code coverage. It currently sits at 78% - this i
 ## Notes
 The brief mentions randomly generate "TEXT" and not "Words" therfore the text generated are not real words. This would have been questioned before proceeding if it wasnt a test and for the sake of time/effort i opted for the literal meaning.
 
+Also as the spec states "word" count rather then character count - the count value observes text groups seperated by white space. Again this would questioned as its normal practice to count characters rather then "words".
+
 ## Devices
 All Devices and rotations are supported however ive only tested and built this on iPhone in potrait
 
